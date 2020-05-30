@@ -27,7 +27,7 @@
             android:layout_marginStart="10sp"
             android:layout_marginEnd="10sp"
             android:layout_marginTop="5sp"
-            android:textColor="#00FF55"
+            android:textColor="#08c29d"
             android:textStyle="italic"
             android:textSize="18sp"
             android:text="Organ donation is the process of donating organs or biological tissues to a living recipient, who is in need of a transplant. The donor may be alive or deceased. This page will provide you with all the basic information about organ donation."/>
@@ -39,7 +39,7 @@
             android:layout_marginStart="10sp"
             android:layout_marginEnd="10sp"
             android:layout_marginTop="5sp"
-            android:textColor="#00FF55"
+            android:textColor="#9a1dcc"
             android:textStyle="bold"
             android:textSize="22sp"
             android:text="What are the types of Organ Transplant Donations?"/>
@@ -51,7 +51,7 @@
             android:layout_marginStart="20sp"
             android:layout_marginEnd="10sp"
             android:layout_marginTop="5sp"
-            android:textColor="#00FF55"
+            android:textColor="#08c29d"
             android:textStyle="italic"
             android:textSize="18sp"
             android:text="There are two different kinds of transplant donations:- \n
@@ -66,7 +66,7 @@
             android:layout_marginStart="10sp"
             android:layout_marginEnd="10sp"
             android:layout_marginTop="5sp"
-            android:textColor="#00FF55"
+            android:textColor="#9a1dcc"
             android:textStyle="bold"
             android:textSize="22sp"
             android:text="Which organs can be Donated?"/>
@@ -78,7 +78,7 @@
             android:layout_marginStart="20sp"
             android:layout_marginEnd="10sp"
             android:layout_marginTop="5sp"
-            android:textColor="#00FF55"
+            android:textColor="#08c29d"
             android:textStyle="italic"
             android:textSize="18sp"
             android:text="Different organs, such as heart, liver, kidneys, and tissues, such as corneas and bone marrow, can now be successfully transplanted into patients, who can expect to survive for years or even decades. The different organs that can be transplanted depend on the type of organ transplant i.e. whether the donor is alive or deceased. \n
@@ -94,7 +94,7 @@
             android:layout_marginStart="10sp"
             android:layout_marginEnd="10sp"
             android:layout_marginTop="5sp"
-            android:textColor="#00FF55"
+            android:textColor="#9a1dcc"
             android:textStyle="bold"
             android:textSize="22sp"
             android:text="How does the process of Donation Work?"/>
@@ -106,7 +106,7 @@
             android:layout_marginStart="20sp"
             android:layout_marginEnd="10sp"
             android:layout_marginTop="5sp"
-            android:textColor="#00FF55"
+            android:textColor="#08c29d"
             android:textStyle="italic"
             android:textSize="18sp"
             android:text="The donor undergoes the medical tests and evaluations to check his or her medical compatibility with the recipient. \n
@@ -131,7 +131,7 @@ DECEASED DONATIONS:- \n
             android:layout_marginStart="10sp"
             android:layout_marginEnd="10sp"
             android:layout_marginTop="5sp"
-            android:textColor="#00FF55"
+            android:textColor="#9a1dcc"
             android:textStyle="bold"
             android:textSize="22sp"
             android:text="How many organs can be kept alive in Deceased Donations?"/>
@@ -143,7 +143,7 @@ DECEASED DONATIONS:- \n
             android:layout_marginStart="20sp"
             android:layout_marginEnd="10sp"
             android:layout_marginTop="5sp"
-            android:textColor="#00FF55"
+            android:textColor="#08c29d"
             android:textStyle="italic"
             android:textSize="18sp"
             android:text="A deceased donor is kept on a ventilator after he or she has been declared brain dead and until the organs can be harvested. A brain-dead person’s organs may stay alive for a varied time period; this period may range from a couple of days to a couple of weeks. However, once the organs have been removed from the body and stored in a chemical solution, they have limited life spans. The length of time donated organs and tissues can be kept outside the body, before transplantation is to occur, vary:- \n
@@ -161,7 +161,7 @@ Lung: 4-6 hours \n"/>
             android:layout_marginStart="10sp"
             android:layout_marginEnd="10sp"
             android:layout_marginTop="5sp"
-            android:textColor="#00FF55"
+            android:textColor="#9a1dcc"
             android:textStyle="bold"
             android:textSize="22sp"
             android:text="Should Donors tell their Families about their wish to Donate Organs?"/>
@@ -173,7 +173,7 @@ Lung: 4-6 hours \n"/>
             android:layout_marginStart="20sp"
             android:layout_marginEnd="10sp"
             android:layout_marginTop="5sp"
-            android:textColor="#00FF55"
+            android:textColor="#08c29d"
             android:textStyle="italic"
             android:textSize="18sp"
             android:text="The most important thing that a donor must do, after he or she has pledged to become a donor, is to discuss the decision with his or her family. Although the decision is personal, organ and tissue donation cannot take place without the consent of the donor’s family. Donors are advised to help their families understand the motive behind their decisions. For instance, a donor may have been inspired by another donor’s or recipient’s story. This donor could narrate this story to his or her family so that it understands what the donor feels; this also makes the family more likely to consent with the donor’s decision."/>
@@ -185,7 +185,7 @@ Lung: 4-6 hours \n"/>
             android:layout_marginStart="10sp"
             android:layout_marginEnd="10sp"
             android:layout_marginTop="5sp"
-            android:textColor="#00FF55"
+            android:textColor="#9a1dcc"
             android:textStyle="bold"
             android:textSize="22sp"
             android:text="What is the role of the Recipient of the Organ(s)?"/>
@@ -197,7 +197,7 @@ Lung: 4-6 hours \n"/>
             android:layout_marginStart="20sp"
             android:layout_marginEnd="10sp"
             android:layout_marginTop="5sp"
-            android:textColor="#00FF55"
+            android:textColor="#08c29d"
             android:textStyle="italic"
             android:textSize="18sp"
             android:text="It is important for recipients, who are in need of a transplant, to be aware of their roles in the entire procedure. Recipients are usually (in deceased donations) linked to donors as follows:- \n
@@ -216,7 +216,7 @@ Lung: 4-6 hours \n"/>
             android:layout_marginStart="10sp"
             android:layout_marginEnd="10sp"
             android:layout_marginTop="5sp"
-            android:textColor="#00FF55"
+            android:textColor="#9a1dcc"
             android:textStyle="bold"
             android:textSize="22sp"
             android:text="Will Relatives of the Donor know whom the Organs are given to?"/>
@@ -228,7 +228,7 @@ Lung: 4-6 hours \n"/>
             android:layout_marginStart="20sp"
             android:layout_marginEnd="10sp"
             android:layout_marginTop="5sp"
-            android:textColor="#00FF55"
+            android:textColor="#08c29d"
             android:textStyle="italic"
             android:textSize="18sp"
             android:text="No, this information is kept confidential"/>
@@ -240,7 +240,7 @@ Lung: 4-6 hours \n"/>
             android:layout_marginStart="10sp"
             android:layout_marginEnd="10sp"
             android:layout_marginTop="5sp"
-            android:textColor="#00FF55"
+            android:textColor="#9a1dcc"
             android:textStyle="bold"
             android:textSize="22sp"
             android:text="Will Organ Donation affect Funeral Rites or Burial Arrangements?"/>
@@ -252,7 +252,7 @@ Lung: 4-6 hours \n"/>
             android:layout_marginStart="20sp"
             android:layout_marginEnd="10sp"
             android:layout_marginTop="5sp"
-            android:textColor="#00FF55"
+            android:textColor="#08c29d"
             android:textStyle="italic"
             android:textSize="18sp"
             android:text="No, a loved one’s body is properly respected without any external sign of disfigurement, except a properly sutured surgical wound."/>
@@ -264,7 +264,7 @@ Lung: 4-6 hours \n"/>
             android:layout_marginStart="10sp"
             android:layout_marginEnd="10sp"
             android:layout_marginTop="5sp"
-            android:textColor="#00FF55"
+            android:textColor="#9a1dcc"
             android:textStyle="bold"
             android:textSize="22sp"
             android:text="Are there any Monetary Benefits for Organ Donation?"/>
@@ -276,7 +276,7 @@ Lung: 4-6 hours \n"/>
             android:layout_marginStart="20sp"
             android:layout_marginEnd="10sp"
             android:layout_marginTop="5sp"
-            android:textColor="#00FF55"
+            android:textColor="#08c29d"
             android:textStyle="italic"
             android:textSize="18sp"
             android:text="No, there is no monetary compensation for the donor family and charge for receiver family. That’s why it’s called a Gift."/>

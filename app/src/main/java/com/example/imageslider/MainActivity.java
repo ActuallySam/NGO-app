@@ -17,6 +17,7 @@ import android.widget.ImageView;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import com.getbase.floatingactionbutton.FloatingActionButton;
 import com.smarteist.autoimageslider.DefaultSliderView;
 import com.smarteist.autoimageslider.IndicatorAnimations;
 import com.smarteist.autoimageslider.SliderLayout;
@@ -45,44 +46,62 @@ public class MainActivity extends AppCompatActivity {
 
         //Buttons OnClickListeners (Starting here  --->>>>>>>>>>>>>
 
-        Button button = (Button) findViewById(R.id.button);
-        Button button3 = (Button) findViewById(R.id.button3);
-        Button button6 = (Button) findViewById(R.id.button6);
-        button.setOnClickListener(new View.OnClickListener(){
-            @Override
-            public void onClick(View v)   {
-                openMainActivity2();
-            }
-        });
+        Button button1 = (Button) findViewById(R.id.organbutton);
 
-        button3.setOnClickListener(new View.OnClickListener(){
+        button1.setOnClickListener(new View.OnClickListener(){
             @Override
             public void onClick(View v)   {
                 openMainActivity3();
             }
         });
 
-        button6.setOnClickListener(new View.OnClickListener(){
+
+        //Buttons OnClickListeners (Ending here ........................)
+
+
+        FloatingActionButton fab1=findViewById(R.id.fab_action1);
+
+        fab1.setOnClickListener(new View.OnClickListener() {
             @Override
-            public void onClick(View v)   {
-                openMainActivity4();
+            public void onClick(View v) {
+                Intent browserIntent = new Intent(Intent.ACTION_VIEW, Uri.parse("http://igiftlife.com/frequently-asked-questions/"));
+                startActivity(browserIntent);
             }
         });
 
-        //Buttons OnClickListeners (Ending here ........................)
+        FloatingActionButton fab2=findViewById(R.id.fab_action2);
+
+        fab2.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent browserIntent = new Intent(Intent.ACTION_VIEW, Uri.parse("https://igiftlife.com/"));
+                startActivity(browserIntent);
+            }
+        });
+
+        FloatingActionButton fab3=findViewById(R.id.fab_action3);
+
+        fab3.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent browserIntent = new Intent(Intent.ACTION_VIEW, Uri.parse("http://igiftlife.com/volunteer/"));
+                startActivity(browserIntent);
+            }
+        });
     }
+
 
     private void setSliderViews()  {
 
-        for(int i = 0 ; i <= 5 ; i++){
+        for(int i = 1 ; i <= 6 ; i++){
 
             DefaultSliderView sliderView = new DefaultSliderView(this);
 
             switch(i)  {
 
                 case 1:
-                    sliderView.setDescription("3rd Batch - SCMS");
-                    sliderView.setImageDrawable(R.drawable.scms);
+                    sliderView.setDescription("Think about it!!");
+                    sliderView.setImageDrawable(R.drawable.rsz_4billion);
                     break;
 
                 case 2:
@@ -128,33 +147,29 @@ public class MainActivity extends AppCompatActivity {
         }
     }
 
-    public void openMainActivity2(){
-        Intent intent = new Intent(this , MainActivity2.class);
-        startActivity(intent);
-    }
 
     public void openMainActivity3(){
         Intent intent = new Intent(this , MainActivity3.class);
         startActivity(intent);
     }
 
-    public void openMainActivity4(){
-        Intent intent = new Intent(this , MainActivity4.class);
-        startActivity(intent);
-    }
-
-    public void browser1(View view){
-        Intent browserIntent = new Intent(Intent.ACTION_VIEW, Uri.parse("http://www.igiftlife.com"));
+    public void brainbutton(View view){
+        Intent browserIntent = new Intent(Intent.ACTION_VIEW, Uri.parse("https://youtu.be/y-ycVBrQW7E"));
         startActivity(browserIntent);
     }
 
-    public void browser5(View view){
+    public void chatbutton(View view){
         Intent browserIntent = new Intent(Intent.ACTION_VIEW, Uri.parse("https://console.dialogflow.com/api-client/demo/embedded/igiftlife"));
         startActivity(browserIntent);
     }
 
-    public void browser4(View view){
+    public void pledgebutton(View view){
         Intent browserIntent = new Intent(Intent.ACTION_VIEW, Uri.parse("https://igiftlife.com/register-for-organ-donation"));
+        startActivity(browserIntent);
+    }
+
+    public void explore(View view){
+        Intent browserIntent = new Intent(Intent.ACTION_VIEW, Uri.parse("https://www.youtube.com/channel/UCPdI8ehOTCNEks1M0xsAEdA/playlists"));
         startActivity(browserIntent);
     }
 
@@ -178,21 +193,24 @@ public class MainActivity extends AppCompatActivity {
                     startActivity(browserIntent);
                     return true;
                 }
-                else if(item.getItemId() == R.id.item3){
-                    Intent browserIntent = new Intent(Intent.ACTION_VIEW, Uri.parse("http://igiftlife.com/frequently-asked-questions/"));
-                    startActivity(browserIntent);
-                    return true;
-                }
-                else if(item.getItemId() == R.id.item4){
+                else if (item.getItemId() == R.id.item3) {
                     Intent browserIntent = new Intent(Intent.ACTION_VIEW, Uri.parse("http://igiftlife.com/blog/"));
                     startActivity(browserIntent);
                     return true;
                 }
-                else if(item.getItemId() == R.id.item5){
-                    Intent browserIntent = new Intent(Intent.ACTION_VIEW, Uri.parse("http://igiftlife.com/volunteer/"));
+                else if (item.getItemId() == R.id.item4) {
+                    Intent browserIntent = new Intent(Intent.ACTION_VIEW, Uri.parse("https://igiftlife.com/contact-us/"));
                     startActivity(browserIntent);
                     return true;
                 }
+                else if(item.getItemId() == R.id.item5){
+                    Intent intent = new Intent(Intent.ACTION_MAIN);
+                    intent.addCategory(Intent.CATEGORY_HOME);
+                    intent.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
+                    startActivity(intent);
+                    return true;
+                }
+
 
                 return super.onOptionsItemSelected(item);
 
